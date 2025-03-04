@@ -648,7 +648,6 @@ section,
 .section-title h2 {
   font-size: 42px;
   font-weight: 700;
-  margin-bottom: 10px;
   background: linear-gradient(120deg, var(--heading-color), var(--accent-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
