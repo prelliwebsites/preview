@@ -752,7 +752,7 @@ section,
 }
 
 .hero .content .lead {
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
@@ -943,7 +943,7 @@ section,
 }
 
 .about .about-content .lead {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
 }
 
