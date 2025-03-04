@@ -10,17 +10,79 @@
   
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-    /* Styles for medium devices */
+    .custom-header{
+        font-size: 20px;
+    }
+
+    .overlay-font{
+        margin-top: -200px;
+    }
+
+    .overlay-p{
+        margin-top: -15px;
+        font-size: 20px;
+        font-weight: 20px;
+    }
+
+
+    .overlay-h6{
+        margin-top:20px;
+    }
+
+    .text-stroke{
+        -webkit-text-stroke: 5px green; 
+    }
   }
   
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Styles for large devices */
+    .custom-header{
+        font-size: 120px;
+    }
+
+    .overlay-font{
+        margin-top: -200px;
+    }
+
+    .overlay-p{
+        margin-top: -25px;
+        font-size: 20px;
+        font-weight: 20px;
+    }
+
+    .overlay-h6{
+        margin-top:20px;
+    }
+
+    .text-stroke{
+        -webkit-text-stroke: 5px green; 
+    }
   }
   
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
-    /* Styles for extra large devices */
+    .custom-header{
+        font-size: 120px;
+    }
+
+    .overlay-font{
+        margin-top: -200px;
+    }
+
+    .overlay-p{
+        margin-top: -25px;
+        font-size: 20px;
+        font-weight: 20px;
+    }
+
+    .overlay-h6{
+        margin-top:20px;
+    }
+
+    .text-stroke{
+        -webkit-text-stroke: 5px green; 
+    }
   }
   
   /* For very large screens (1200px and up, sometimes used for very high resolution screens) */
@@ -35,10 +97,16 @@
 
     .overlay-p{
         margin-top: -25px;
+        font-size: 20px;
+        font-weight: 20px;
     }
 
     .overlay-h6{
         margin-top:20px;
+    }
+
+    .text-stroke{
+        -webkit-text-stroke: 5px green; 
     }
   }
   
