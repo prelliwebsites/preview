@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="/favicon.png">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo-small.png" alt="logo" width="30px">
-        <h6 class="sitename mt-2"><b>PRELLI</b> Foundation</h6>
+        <h6 class="sitename mt-2"><b class="sigmar-regular">PRELLI</b> Foundation</h6>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -93,11 +93,13 @@
       <div class="container">
         <div class="overlay font-expand">    
         <div class="row align-items-center content">
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-            <h6 class="text-center mt text-white">Welcome To</h6>
-            <h2 class="text-center text-white"><b>PRELLI</b> Foundation</h2>
-            <p class=" text-center  text-white"><b>PRELLI</b></b> stands for <span class="text-gree"><b>P</b></span>rograms for the <span class="text-gree"><b>R</b></span>ehabilitation and <span class="text-gree"><b>E</b></span>mpowerment of <span class="text-gree"><b>L</b></span>ess-fortunate <span class="text-gree"><b>L</b></span>ives and <span class="text-gree"><b>I</b></span>nstitutions</p>
- 
+          <div class="overlay-font">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+              <h6 class="text-center mt text-white overlay-h6">Welcome to</h6>
+              <h2 class="text-center text-white custom-header header-font"><b class="t">PRELLI</b> Foundation</h2>
+              <p class=" text-center text-white overlay-p"><b class="text-green">PRELLI</b></b> stands for <span class="text-gree"><b>P</b></span>rograms for the <span class="text-gree"><b>R</b></span>ehabilitation and <span class="text-gree"><b>E</b></span>mpowerment of <span class="text-gree"><b>L</b></span>ess-fortunate <span class="text-gree"><b>L</b></span>ives and <span class="text-gree"><b>I</b></span>nstitutions</p>
+   
+            </div>
           </div>
    
         </div>
@@ -910,34 +912,40 @@
 
     <!-- covid section  -->
         <!-- covid section  -->
-   
-        <section class="mt-5">
-          <div class="container d-flex" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-          <div class="row">
-            
-            
-            <h1 class="col-lg-12 text-center text-green header-font-1 mt-5">DISTRIBUTION OF FACEMASK</h1>
-                  <div class="col-md-6 mt-5">  
-                     <div class="text-center caption mt-1">
-                      <h3 class="font-1 text-center">In line with the observance of health protocols, <b>PRELLI</b> Foundation, through some of its officers, distributed FACE MASKS and FACE SHIELDS in public places and offices to deter the fast spread of the deadly virus called COVID-19.
-                      </h3>
-                      <!-- <button class="btn btn-success">Go to Article</button> -->
-                     </div>
-  
-  
-                  </div>
-                  <div class="col-md-6 mt-3" data-aos="fade-up"
-                  data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-                     <div class="text-center caption ">
-                      <img src="./assets/img/details/image-final/pandemic-3.jpg" alt="" width="550px">
-                     </div>
+
+        <section id="about" class="about section">
       
+          <h1 class="text-center text-green fw-bold">DISTRIBUTION OF FACEMASK</h1>
+      
+        <!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+      
+              <div class="row gy-4 align-items-center justify-content-between">
+      
+                <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+                <h4 class="caption text-center mt-5">In line with the observance of health protocols, <b>PRELLI</b> Foundation, through some of its officers, distributed FACE MASKS and FACE SHIELDS in public places and offices to deter the fast spread of the deadly virus called COVID-19.
+                </h4>
+                
+                <!-- <a href="" class="mt-5"> <button class="btn btn-success">Go to Article</button></a> -->
+      
+              
+      
+                </div>
+      
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="image-wrapper">
+                    <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                      <img src="./assets/img/details/image-final/pandemic-3.jpg" alt="Business Meeting" class="img-fluid main-image rounded-4 br-25 mt-5">
+                      <!-- <img src="assets/prelli-pictures/signing contract/" alt="Team Discussion" class="img-fluid small-image rounded-4"> -->
+                    </div>
+                    
                   </div>
-                 
+                </div>
               </div>
-          </div>
-      </section> 
+            </div>
+          </section>
+   
+  
 
       <!-- malungay planting  -->
       <section class="container text-center my-5">
@@ -973,25 +981,25 @@
     <h6 class="text-center caption mt-5 mb-5">On August 23, 2022 a "BALIK ESKWELA" Project was held at PILIEN ELEMENTARY SCHOOL & PISAPUNGAN ELEMENTARY SCHOOL in Brgy. Sta. Juliana, Capas, Tarlac, in Coordination with the  HADFAFI-Health and Development Foundation, </h6>
     <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card-additional">
+          <div class="card-additional mt-2">
             <img src="./assets/img/details/image-final/4.jpg" class="card-img-top img-fluid" alt="Image description" />
           </div>
         </div>
       
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card-additional">
+          <div class="card-additional mt-2">
             <img src="./assets/img/details/image-final/1.jpg" class="card-img-top img-fluid" alt="Image description" />
           </div>
         </div>
       
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card-additional">
+          <div class="card-additional mt-2">
             <img src="./assets/img/details/image-final/2.jpg" class="card-img-top img-fluid" alt="Image description" />
           </div>
         </div>
       
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card-additional">
+          <div class="card-additional mt-2">
             <img src="./assets/img/details/image-final/3.jpg" class="card-img-top img-fluid" alt="Image description" />
           </div>
         </div>
@@ -1192,10 +1200,10 @@
       <div class="copyright text-center ">
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.youtube.com/@PrelliFoundation" target="_blank"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.facebook.com/PRELLIFoundationInc" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="" target="_blank"><i class="bi bi-telegram"></i></a>
       </div>
       <div class="credits">
         <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Prelli Foundation Created By <a href="https://www.devcrud.com" target="_blank"><b>PRELLI</b> Developer.</a>  All rights reserved </p>   

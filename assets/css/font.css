@@ -1,0 +1,135 @@
+
+.roboto-caption{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  
+.caption-1{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
+  /* ubuntu semi bold  */
+
+  .ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  /* this is for caption or title  */
+  
+.josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.exo-2 {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .header-font{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bold-1{
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .anton-1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cursive{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.caption-pro{
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  
