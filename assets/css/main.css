@@ -1976,7 +1976,7 @@ section,
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  background-color: #000;
+  background-color: green;
   color: #fff;
   border-radius: 10rem;
   font-weight: 600;
@@ -2002,13 +2002,13 @@ section,
 }
 
 .button1:hover {
-  background-color: green;
-  color: black;
+  background-color: lightblue;
+  color: white;
 }
 
 .button1:hover .button1__icon-wrapper {
-  color: green;
-  background-color: #000;
+  color: rgb(0, 0, 0);
+  background-color: green;
 }
 
 .button1__icon-svg--copy {
