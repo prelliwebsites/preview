@@ -2079,13 +2079,7 @@ section,
 
 /* image gallery css  */
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: sans-serif;
-}
+
 
 .grid-container {
   columns: 5 200px;
