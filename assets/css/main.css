@@ -2071,3 +2071,7 @@ section,
     transform: translateY(90%);
   }
 };
+
+.br-5{
+  border-radius: 25px;
+}
