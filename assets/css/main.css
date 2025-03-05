@@ -1725,10 +1725,11 @@ section,
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: green;
 }
 
 .portfolio-details .portfolio-description p {
-  padding: 0;
+  /* padding: 0; */
 }
 
 .portfolio-details .portfolio-description .testimonial-item {

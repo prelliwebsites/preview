@@ -1,6 +1,37 @@
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
-    /* Styles for phones */
+
+    /* this is for agriculture  */
+    .agri-1{
+        width: 650px;
+        border-radius: 50px ;
+    }
+    .agri-2{
+        width: 650px;
+        border-radius: 50px ;
+    }
+
+    .agri-3{
+        width: 650px;
+        border-radius: 50px;
+    }
+
+    .agri-4{
+        width: 650px;
+        border-radius: 50px;
+    }
+
+    .agri-5{
+        width: 650px;
+        border-radius: 50px ;
+    }
+
+    .portfolio-details{
+        margin-top: -90px;
+    }
+
+    /* agriculture end  */
+
   }
   
   /* Small devices (portrait tablets and large phones, 576px and up) */
@@ -108,5 +139,46 @@
     .text-stroke{
         -webkit-text-stroke: 5px green; 
     }
+
+    .agri-1{
+        width: 650px;
+        border-radius: 50px ;
+    }
+    .agri-2{
+        width: 650px;
+        border-radius: 50px ;
+    }
+
+    .agri-3{
+        width: 650px;
+        border-radius: 50px;
+    }
+
+    .agri-4{
+        width: 650px;
+        border-radius: 50px;
+    }
+
+    .agri-5{
+        width: 650px;
+        border-radius: 50px ;
+    }
+
+    .portfolio-description{
+        margin-top: 50px;
+     
+       
+    }
+
+    .portfolio-details .portfolio-description h2 {
+        font-size: 50px;
+        font-weight: 700;
+        /* margin-bottom: 20px; */
+    }
+
+    .mt-adjust{
+        margin-top: 120px;
+    }
+
   }
   
