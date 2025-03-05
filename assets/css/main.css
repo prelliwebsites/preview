@@ -1965,3 +1965,108 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* button css  */
+
+/* From Uiverse.io by rahulgarg99 */ 
+.button1 {
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  padding-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.3s;
+}
+
+.button1__icon-wrapper {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.button1:hover {
+  background-color: green;
+  color: black;
+}
+
+.button1:hover .button1__icon-wrapper {
+  color: green;
+  background-color: #000;
+}
+
+.button1__icon-svg--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button1:hover .button1__icon-svg:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button1:hover .button1__icon-svg--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+
+/* scroll css button  */
+
+/* From Uiverse.io by boryanakrasteva */ 
+.btn {
+  width: 30px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid rgb(105, 127, 255);
+  box-shadow: 0px 0px 10px rgb(105, 127, 255);
+  position: relative;
+}
+
+.scroll {
+  width: 5px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(105, 127, 255);
+  box-shadow: 0px 0px 10px rgb(105, 127, 255);
+  animation: scroll_4013 2s linear infinite;
+  transform: translateY(40%);
+}
+
+.btn:after {
+  content: 'scroll';
+  position: absolute;
+  top: 140%;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@keyframes scroll_4013 {
+  0% {
+    transform: translateY(40%);
+  }
+
+  50% {
+    transform: translateY(90%);
+  }
+};
