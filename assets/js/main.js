@@ -389,4 +389,19 @@
   document.addEventListener('DOMContentLoaded', accessibleModal.init);
 })();
 
+
+
 // end modal 
+
+// js for loader 
+
+window.onload = function() {
+  const preloader = document.querySelector('.preloader');
+  const content = document.querySelector('.content');
+
+  // Hide preloader and show content after 2 seconds
+  setTimeout(function() {
+    preloader.style.display = 'none';
+    content.style.display = 'block';
+  }, 5000); // You can change the time as needed
+};
