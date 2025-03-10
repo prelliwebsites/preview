@@ -46,6 +46,10 @@
         margin-top: -90px;
     }
 
+    #baler{
+        margin-top: -1200px;
+    }
+
     /* agriculture end  */
 
   }
@@ -266,5 +270,7 @@
     .health{
         margin-top: 60px;
     }
+
+   
   }
   
