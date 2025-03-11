@@ -410,31 +410,31 @@ window.onload = function() {
 
 // script.js
 
-
+// Initialize EmailJS
 (function() {
-  emailjs.init("_Y1lXuN-0BGBqD_wD");  
+    emailjs.init("_Y1lXuN-0BGBqD_wD");  // Replace with your User ID from EmailJS public keys
 })();
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent form from refreshing the page
-  
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const subject = document.getElementById("subject").value;
-  const message = document.getElementById("message").value;
+    event.preventDefault(); // Prevent form from refreshing the page
+    
+    // Get form values
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
+    // Validate fields (Basic example)
+    if (name === "" || email === "" || message === "") {
+        alert("Please fill out all fields.");
+        return;
+    }
 
-  if (name === "" || email === "" || subject === "" || message === "") {
-      alert("Please fill out all fields.");
-      return;
-  }
-
-
-  emailjs.sendForm("service_ho8r2we", "template_xfx3xkj", this)
-      .then(function(response) {
-          document.getElementById("responseMessage").innerText = "Thank you for getting in touch! We will respond soon.";
-          document.getElementById("contactForm").reset();
-      }, function(error) {
-          document.getElementById("responseMessage").innerText = "Sorry, something went wrong. Please try again.";
-      });
+    // Use EmailJS to send the form data to your email  service_is from email that created and template is for template that will auto reply
+    emailjs.sendForm("service_ho8r2we", "template_oxgrl4h", this)
+        .then(function(response) {
+            document.getElementById("responseMessage").innerText = "Thank you for getting in touch! We will respond soon.";
+            document.getElementById("contactForm").reset();
+        }, function(error) {
+            document.getElementById("responseMessage").innerText = "Sorry, something went wrong. Please try again.";
+        });
 });
