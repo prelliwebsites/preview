@@ -50,6 +50,10 @@
         margin-top: -1200px;
     }
 
+    .img-mortage{
+        margin-left: 30px;
+    }
+
     /* agriculture end  */
 
   }
@@ -83,6 +87,8 @@
     .text-stroke{
         -webkit-text-stroke: 5px green; 
     }
+
+ 
   }
   
   /* Large devices (desktops, 992px and up) */
@@ -277,6 +283,11 @@
 
     .jun-5{
         width: 500px;
+    }
+
+    .img-mortage{
+        width: 1050px;
+        margin-left: 130px;
     }
   }
   
